@@ -1,0 +1,87 @@
+### Hay mucho código aquí, entonces busque las líneas resaltadas en verde
+# para encontrar donde tiene que agregar su código.
+
+Línea(200, 0, 200, 400)
+Línea(0, 200, 400, 200)
+
+# panel izquierda-superior
+# Descomente las dos líneas de código que siguen y corrígelas para que dibujen el título.
+### Modifique su código aquí ###
+# Rótulo('EL CUENTO DE', 125, 50)
+# Rótulo('UN PROGRAMADOR')
+Rótulo('EL CUENTO DE', 100, 75, relleno='azulCieloClaro', fuente='arial', tamaño=18, negrito=Verdadero, itálica=Verdadero)
+Rótulo('UN PROGRAMADOR',100, 125, relleno='azulCieloClaro', fuente='arial', tamaño=18, negrito=Verdadero, itálica=Verdadero)
+
+# panel derecha-superior
+# Orden de dibujo: burbuja de diálogo, computadora, persona de palo 1, persona de palo 2
+
+# Dibuje el diálogo para la esquina superior derecha usando un rótulo.
+### Modifique su código aquí ###
+# Rótulo('No entiendo tu código')
+Rótulo('No entiendo tu código',300,40, relleno='negro', fuente='monospace', tamaño=12)
+
+Óvalo(300, 40, 175, 50, relleno=None, borde='negro')
+Línea(320, 65, 340, 90)
+Línea(330, 65, 340, 90)
+
+Rect(200, 120, 10, 50, relleno='gris', borde='negro')
+Rect(200, 175, 25, 10, relleno='gris', borde='negro')
+
+Rect(242, 150, 16, 50, relleno='azulCieloClaro', borde='negro')
+Línea(255, 155, 215, 170)
+Círculo(250, 135, 15, relleno='blanco', borde='negro')
+Círculo(244, 135, 2)
+
+Línea(340, 140, 310, 130)
+Línea(310, 130, 340, 110)
+Rect(332, 135, 16, 65, relleno='verdeClaro', borde='negro')
+Círculo(340, 120, 15, relleno='blanco', borde='negro')
+Círculo(334, 120, 2)
+
+# panel izquierda-inferior
+# Orden de dibujo: burbuja de diálogo, computadora, persona de palo 1, persona de palo 2
+
+# Dibuje el diálogo para la esquina inferior izquierda usando un rótulo.
+### Modifique su código aquí ###
+# Rótulo()
+Rótulo('Yo tampoco',100,240,relleno='negro', fuente='monospace', tamaño=12)
+Óvalo(100, 240, 120, 50, relleno=None, borde='negro')
+Línea(80, 265, 70, 290)
+Línea(90, 265, 70, 290)
+
+Rect(0, 320, 10, 50, relleno='gris', borde='negro')
+Rect(0, 375, 25, 10, relleno='gris', borde='negro')
+
+Rect(42, 350, 16, 80, relleno='azulCieloClaro', borde='negro')
+Círculo(50, 335, 15, relleno='blanco', borde='negro')
+Círculo(56, 335, 2)
+
+Rect(132, 335, 16, 80, relleno='verdeClaro', borde='negro')
+Círculo(140, 320, 15, relleno='blanco', borde='negro')
+Círculo(134, 320, 2)
+
+# panel derecha-inferior
+# Orden de dibujo: burbuja de diálogo, computadora, persona de palo 1, persona de palo 2
+
+# Dibuje el diálogo para la esquina inferior derecha corner usando un rótulo.
+### Modifique su código aquí ###
+# Rótulo()
+Rótulo('¡¡Pero funciona!!',300,240,relleno='negro', fuente='monospace', tamaño=12)
+
+Óvalo(300, 240, 150, 50, relleno=None, borde='negro')
+Línea(280, 265, 270, 290)
+Línea(290, 265, 270, 290)
+
+Rect(200, 320, 10, 50, relleno='gris', borde='negro')
+Rect(200, 375, 25, 10, relleno='gris', borde='negro')
+
+Línea(250, 360, 215, 325)
+Línea(250, 360, 285, 325)
+Rect(242, 350, 16, 80, relleno='azulCieloClaro', borde='negro')
+Círculo(250, 335, 15, relleno='blanco', borde='negro')
+Línea(245, 335, 260, 335, anchuraDeLínea=3, guión=(3, 8))
+
+Línea(340, 320, 340, 400)
+Rect(332, 335, 16, 80, relleno='verdeClaro', borde='negro')
+Círculo(340, 320, 15, relleno='blanco', borde='negro')
+Línea(330, 320, 350, 320, guión=(5, 7))
